@@ -1,0 +1,146 @@
+@media ( max-width:768px ) {
+    .header {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        &__logo {
+            margin: 0 20px;
+        }
+        &__official {
+            margin: 0 20px;
+        }
+        &__contacts {
+            margin: 0 20px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+    }
+    .benefits {
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        &__item {
+            margin: 0 9.75px;
+            &:last-child {
+                margin-top: 40px;
+            }
+        }
+    }
+}
+
+@media ( max-width: 722px ) {
+    .header {
+        &__contacts {
+            margin-top: 20px;
+            align-items: center;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 36px;
+            line-height: 36px;
+        }
+        &__subheader {
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+    .title {
+        font-size: 26px;
+        line-height: 26px;
+    }
+}
+
+@media ( max-width: 525px ) {
+    .header {
+        &__official {
+            margin-top: 20px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 28px;
+            line-height: 28px;
+        }
+        &__subheader {
+            font-size: 18px;
+            line-height: 18px;
+        }
+        &__icons {
+            width: 106px;
+            height: 400px;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+    }
+    .title {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .benefits {
+        &__item {
+            margin-bottom: 40px;
+            &:last-child {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+@media ( max-width: 425px ) {
+    .promo {
+        &__header {
+            font-size: 24px;
+            line-height: 24px;
+        }
+        &__subheader {
+            font-size: 15px;
+            line-height: 15px;
+        }
+    }
+    .title {
+        font-size: 22px;
+        line-height: 22px;
+    }
+}
+
+@media ( max-width: 375px ) {
+    .header {
+        &__phone {
+            font-size: 15px;
+        }
+    }
+    .button {
+        width: 140px;
+        height: 25px;
+        font-size: 11px;
+    }
+    .promo {
+        &__header {
+            font-size: 20px;
+            line-height: 20px;
+        }
+        &__subheader {
+            font-size: 12px;
+            line-height: 12px;
+        }
+        &__link {
+            margin-top: 14px;
+            font-size: 13px;
+        }
+    }
+    .button_main {
+        width: 240px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .title {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
