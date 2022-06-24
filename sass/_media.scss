@@ -29,6 +29,23 @@
             }
         }
     }
+    .title_left {
+        font-size: 30px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .consultation {
+        &__dscr {
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            margin-top: 65px;
+        }
+    }
+    .contacts-form {
+        margin: 0 auto;
+        margin-top: 36px;
+    }
 }
 
 @media ( max-width: 722px ) {
@@ -51,6 +68,17 @@
     .title {
         font-size: 26px;
         line-height: 26px;
+    }
+    .title_left {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .consultation {
+        &__dscr {
+            font-size: 17px;
+            line-height: 21px;
+            margin-top: 60px;
+        }
     }
 }
 
@@ -81,6 +109,10 @@
         font-size: 24px;
         line-height: 24px;
     }
+    .title_left {
+        font-size: 20px;
+        line-height: 28px;
+    }
     .benefits {
         &__item {
             margin-bottom: 40px;
@@ -88,6 +120,14 @@
                 margin-top: 0;
                 margin-bottom: 0;
             }
+        }
+    }
+    .consultation {
+        min-height: 622px;
+        &__dscr {
+            font-size: 16px;
+            line-height: 20px;
+            margin-top: 55px;
         }
     }
 }
@@ -106,6 +146,28 @@
     .title {
         font-size: 22px;
         line-height: 22px;
+    }
+    .title_left {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .consultation {
+        min-height: 567px;
+        &__dscr {
+            font-size: 15px;
+            line-height: 19px;
+            margin-top: 50px;
+        }
+    }
+    .contacts-form {
+        width: 250px;
+        input {
+            height: 40px;
+        }
+    }
+    .button_submit {
+        height: 45px;
+        font-size: 13px;
     }
 }
 
@@ -142,5 +204,32 @@
     .title {
         font-size: 20px;
         line-height: 20px;
+    }
+    .title_left {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .button_submit {
+        width: 100%;
+        height: 45px;
+        font-size: 14px;
+    }
+    .consultation {
+        min-height: 531px;
+        &__dscr {
+            font-size: 14px;
+            line-height: 18px;
+            margin-top: 40px;
+        }
+    }
+    .contacts-form {
+        width: 200px;
+        input {
+            height: 35px;
+        }
+    }
+    .button_submit {
+        height: 40px;
+        font-size: 12px;
     }
 }
